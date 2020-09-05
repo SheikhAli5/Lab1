@@ -1,0 +1,27 @@
+.btn{
+	width: 100px;
+	height: 50px;
+}
+.radiodiv{
+	display: flex;
+}
+
+.p{
+	width: 5%;
+
+}
+.err{
+	display: none;
+	width: 500px;
+	color: red;
+}
+.email{
+	display: flex;
+	margin-bottom: 50px;
+}
+.comment{
+	display: flex;
+
+}
+.help{
+}

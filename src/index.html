@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab1</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="first">
+	<ol id="ol">
+ <li>Первый комментарий</li>
+ <li>Второй комментарий</li>
+ <li>Третий комментарий</li>
+</ol>
+</div>
+<dir class="second">
+	<form class="form">
+		<div class="email">
+			<p class="help">Enter your email:</p>
+			<input type="email" id="mail">
+			<span class="err" id="error1">Данные введены некорректно!</span>
+		</div>
+		<div class="comment">
+			<p class="help">Enter comment:</p>
+			<textarea id="txt"></textarea>
+			<span class="err" id="error2">Данные введены некорректно!</span>	
+		</div>
+		<div class="radiodiv">
+			<p class="p"><input name="rating" type="radio" value="1" id="radioButton">1</p>
+			<p class="p"><input name="rating" type="radio" value="2" id="radioButton">2</p>
+			<p class="p"><input name="rating" type="radio" value="3" id="radioButton">3</p>
+			<p class="p"><input name="rating" type="radio" value="4" id="radioButton">4</p>
+			<p class="p"><input name="rating" type="radio" value="5" id="radioButton">5</p>
+			<span class="err" id="error3">Данные введены некорректно!</span>
+		</div>
+		<input type="button" name="button" class="btn" id="butn" value="Отправить" onclick="btnClick()">
+	</form>
+</dir>
+<script src="js/script.js"></script>
+</body>
+</html>
